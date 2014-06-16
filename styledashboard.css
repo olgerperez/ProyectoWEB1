@@ -1,14 +1,37 @@
-fieldset
+#fieldsetlogin
 {
 	margin-right: 5%;
 	float: right;
 	position: relative;
-	width:200px;
-	height:40px;
-	border-color: orange;
+	width: 146px;
+	height: 40px;
+	border-color: #00008B;
 	border-radius: 80px;
-	margin-top: -0.5%;
+	top: 2%;
 }
+
+img
+{
+	position: absolute;
+	right: 30px;
+	top: 10px;
+
+}
+
+#fieldmenu
+{
+
+position: absolute;
+width: 800px;
+height: 366px;
+border-color: orange;
+border-radius: 10px;
+
+top: 32%;
+left: 12%;
+}
+
+
 p
 {
 	position: absolute;
@@ -16,18 +39,63 @@ p
 }
 body
 {
-	background-color: orange;
-	box-shadow: 4px;
+	background-image: url('Imagenes/fondo.jpg');
 
 }
-div
+#div
 {
 
-	width: 82%;
+	width: 85%;
 	left: 100px;
-
-	height: 642px;
+	background-color: white;
+	height: 768px;
 	position: absolute;
 	top: 0px;
-	background: white;
+	box-shadow: 5px 9px 21px #9AD;
+}
+
+
+
+#header
+{
+	margin: auto;
+	width: 800px;
+	font-family: Arial;
+}
+
+
+.radios
+{
+	border-radius: 10px;
+}
+
+
+ul, ol {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     
+
+     }
+
+.nav li a
+{	
+
+	background-color: #16209C;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	float: left;
+	box-shadow: 5px 9px 21px #9AD;
+	position: relative;
+	top: 200px;
+
+
+}
+
+.nav li a:hover
+{
+	background-color: #434343;
+	
 }
