@@ -26,18 +26,45 @@
 		<div id="header">
 			<ul class="nav">
  				<li ><a href="Dashboard.html">Dashboard</a></li>
-  				<li><a href="Carreras.html">Carreras</a></li>
+  				<li ><a href="Carreras.html" style="background:#141452">Carreras</a></li>
   				<li><a href="">Estudiantes</a></li>
   				<li ><a href="">Usuarios</a></li>
   			</ul>
   			<fieldset id = "fieldmenu">
-  				<h3>Ultimas Busquedas Realizadas</h3>
+  				<h3>Listado de Carreras</h3>
   				<hr width=75%/>
   				<br>
-  				<p id="pfield">2014/06/01  - Angular JS</p>
-  				<p id="pfield">2014/06/01  - Database, P</p>
-  				<p id="pfield">2014/06/02  - PHP, Code I</p>
-  				<p id="pfield">2014/05/25  - Ruby on Rails</p>
+  				<div> <a href="Dashboard.html" id="addcarrera"><img src="Imagenes/addcarrera.png"></a> </div>
+
+
+  				<div id = "tableconteiner">
+					 <table  cellspacing="10">
+					 	<thead >
+					    <tr>
+					  		<th>Codigo</th>
+					  		<th >Nombre</th>
+					  		<th ></th>
+						</tr>
+						</thead>
+						<tbody>
+					  	<tr>
+					  		<td>ISW</td>
+					  		<td>Ingenieria en Computacion</td>
+					  		<td> <a href="Dashboard.html" id="margen"><img src="Imagenes/delete.png"></a> <a href="" id="margen2"><img src="Imagenes/lapiz.png"></a></td>
+						</tr>
+						<tr>
+					  	<td>COFI</td>
+					  	<td>Contabilidad</td>
+					  	<td> <a href="Dashboard.html" id="margen"><img src="Imagenes/delete.png"></a> <a href="" id="margen2"><img src="Imagenes/lapiz.png"></a></td>
+						</tr>
+						<tr>
+					  	<td>ADM</td>
+					  	<td>Comercio Internacional</td>
+					  	<td> <a href="Dashboard.html" id="margen"><img src="Imagenes/delete.png"></a> <a href="" id="margen2"><img src="Imagenes/lapiz.png"></a></td>
+						</tr>
+					</tbody>
+				  </table>
+				</div>
   			</fieldset>
 		</div>
 	</div>

@@ -54,6 +54,7 @@ body
 {
 	background-image: url('Imagenes/fondo.jpg');
 
+
 }
 hr
 {
@@ -96,7 +97,7 @@ span
 	height: 768px;
 	position: absolute;
 	top: 0px;
-	box-shadow: 5px 9px 21px #9AD;
+	box-shadow: 5px 9px 21px #000205;
 }
 
 
@@ -126,15 +127,15 @@ ul, ol {
 .nav li a
 {	
 
-	background-color: #16209C;
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 15px;
-	display: block;
-	float: left;
-	box-shadow: 5px 9px 21px #9AD;
-	position: relative;
-	top: 154px;
+background-color: #16209C;
+color: #fff;
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+float: left;
+box-shadow: 5px 9px 21px #000205;
+position: relative;
+top: 154px;
 
 
 }

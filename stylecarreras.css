@@ -96,7 +96,7 @@ span
 	height: 768px;
 	position: absolute;
 	top: 0px;
-	box-shadow: 5px 9px 21px #9AD;
+	box-shadow: 5px 9px 21px #000205;
 }
 
 
@@ -132,7 +132,7 @@ ul, ol {
 	padding: 10px 15px;
 	display: block;
 	float: left;
-	box-shadow: 5px 9px 21px #9AD;
+	box-shadow: 5px 9px 21px #000205;
 	position: relative;
 	top: 154px;
 
@@ -152,4 +152,46 @@ ul, ol {
 #ucolor
 {
 	color: blue;
+}
+
+
+#linombre 
+{
+	background-color: #434343;
+}
+
+th
+{
+	border-bottom: solid;
+	width: 200px;
+	text-align: center;
+
+}
+td
+{
+	padding-top: 15px;
+	text-align: center;
+}
+#margen1
+{
+	position: relative;
+	right: 14px;
+}
+#margen2
+{
+	position: relative;
+	right: -25px;
+}
+
+#addcarrera
+{
+	position: absolute;
+	right: 88px;
+	top: 87px;
+}
+
+table
+{
+	right: 84px;
+position: absolute;
 }
