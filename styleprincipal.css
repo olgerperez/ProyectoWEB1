@@ -39,7 +39,7 @@ height: 338px;
 border-color: #16209C;
 border-radius: 10px;
  border: #16209C 5px double;
-
+box-shadow: 4px 11px 32px #000205;
 top: 34%;
 left: 12%;
 }
@@ -53,7 +53,6 @@ left: 12%;
 body
 {
 	background-image: url('Imagenes/fondo.jpg');
-
 
 }
 hr
@@ -145,4 +144,56 @@ ul, ol {
 {
 	background-color: #434343;
 	
+}
+
+#pcarrera
+{
+	color: black;
+}
+#ucolor
+{
+	color: blue;
+}
+
+
+#linombre 
+{
+	background-color: #434343;
+}
+
+th
+{
+	border-bottom: solid;
+	width: 200px;
+	text-align: center;
+
+}
+td
+{
+	padding-top: 15px;
+	text-align: center;
+}
+#margen1
+{
+	position: relative;
+	right: 14px;
+}
+#margen2
+{
+	position: relative;
+	right: -25px;
+}
+
+#addcarrera
+{
+	position: absolute;
+	right: 88px;
+	top: 87px;
+	z-index: 1;
+}
+
+table
+{
+	right: 84px;
+position: absolute;
 }
