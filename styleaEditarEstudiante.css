@@ -322,3 +322,12 @@ td
 	left: 56%;
 	top: 50%;
 }
+
+
+#fieldfoto
+{
+	position: absolute;
+	width: 14%;
+	height: 24%;
+	left: 10%;
+}
