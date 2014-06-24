@@ -4,7 +4,11 @@
 	<title>Dashboard</title>
 	<link rel="stylesheet" type="text/css" href="styleprincipal.css">
 	<meta charset="utf-8" />
-
+	<script type="text/javascript">
+	function eliminar(){
+		alert("Usuario Eliminado Correctamente");
+	}
+	</script>
 </head>
 <body >
 
@@ -34,7 +38,7 @@
   				<h3>Listado de Usuarios</h3>
   				<hr width=75%/>
   				<br>
-  				<div> <a href="Dashboard.html" id="addcarrera"><img src="Imagenes/addcarrera.png"></a> </div>
+  				<div> <a href="UsuariosAgregar.html" id="addcarrera"><img src="Imagenes/addcarrera.png"></a> </div>
 
 
   				<div id = "tableconteiner">
@@ -54,21 +58,21 @@
 					  		<td>DaniloUTN</td>
 					  		<td>Danilo Vargas</td>
 					  		<td>Director de Carrera</td>
-					  		<td> <a href="Dashboard.html" id="margen"><img src="Imagenes/delete.png"></a> <a href="" id="margen2"><img src="Imagenes/lapiz.png"></a></td>
+					  		<td> <a href="Usuarios.html" id="margen" onClick="eliminar()"><img src="Imagenes/delete.png"></a> <a href="UsuariosEditar.html" id="margen2"><img src="Imagenes/lapiz.png"></a></td>
 						</tr>
 						<tr>
 						  	<td>204440444</td>
 						  	<td>BladimirUTN</td>
 						  	<td>Bladimir Arroyo</td>
 						  	<td>Adminsitrador</td>
-						  	<td> <a href="Dashboard.html" id="margen"><img src="Imagenes/delete.png"></a> <a href="" id="margen2"><img src="Imagenes/lapiz.png"></a></td>
+						  	<td> <a href="Usuarios.html" id="margen" onClick="eliminar()"><img src="Imagenes/delete.png"></a> <a href="UsuariosEditar.html" id="margen2"><img src="Imagenes/lapiz.png"></a></td>
 						</tr>
 						<tr>
 					  		<td>205550555</td>
 						  	<td>JoseUTN</td>
 						  	<td>Jose Pablo Quiros</td>
 						  	<td>Adminsitrador</td>
-					  		<td> <a href="Dashboard.html" id="margen"><img src="Imagenes/delete.png"></a> <a href="" id="margen2"><img src="Imagenes/lapiz.png"></a></td>
+					  		<td> <a href="Usuarios.html" id="margen" onClick="eliminar()"><img src="Imagenes/delete.png"></a> <a href="UsuariosEditar.html" id="margen2"><img src="Imagenes/lapiz.png"></a></td>
 						</tr>
 					</tbody>
 				  </table>

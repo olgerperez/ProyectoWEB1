@@ -29,13 +29,6 @@
 
 }
 
-#imgfoto{
-	position: absolute;
-	top: 0%;
-	left: 14%;
-}
-
-
 
 #fieldmenu
 {
@@ -107,8 +100,6 @@ span
 	box-shadow: 5px 9px 21px #000205;
 }
 
-
-
 #header
 {
 	margin: auto;
@@ -133,90 +124,53 @@ span
 }
 
 
-#linombre 
-{
-	background-color: #434343;
-}
-
-th
-{
-	border-bottom: solid;
-	width: 200px;
-	text-align: center;
-
-}
-td
-{
-	padding-top: 15px;
-	text-align: center;
-}
-#margen1
-{
-	position: relative;
-	right: 14px;
-}
-#margen2
-{
-	position: relative;
-	right: -25px;
-}
-
-#addcarrera
-{
-	position: absolute;
-	right: 88px;
-	top: 87px;
-	z-index: 1;
-}
-
 #btnguardar{
 	font-size: 16px;
 	position: absolute;
-	top: 89%;
-	left: 40%
+	top: 63%;
+	left: 37%;
 }
 
 
 #btncancelar{
 	font-size: 16px;
 	position: absolute;
-	top: 421px;
-	left: 54%;
-	height: 35px;
+	top: 63.3%;
+	left: 52%;
+	height: 34px;
 	text-align: center;
 }
 
-#labelcodigo
+#lblcedula
 {
 	position: absolute;
-	top: 40%;
-	left: 2%;
+	top: 16%;
+	left: 31%;
 }
 
-#labelnombre
+#lblnombre
 {
 	position: absolute;
-	top: 50%;
-	left: 2%;
+	top: 28%;
+	left: 30.5%;
 }
 
-#inputcodigo
+#inputcedula
 {
 	position: absolute;
-	top: 39%;
-	left: 10%;
+	top: 14%;
+	left: 39%;
 	height: 22px;
 	width: 200px;
 	font-size: 16px;
 	text-align: center;
 }
 
-
 #inputnombre
 {
 	position: absolute;
-	top: 49%;
-	left: 10%;
+	top: 26%;
+	left: 39%;
 	height: 22px;
 	width: 200px;
 	font-size: 16px;
@@ -226,7 +180,7 @@ td
 #inputcarrera
 {
 	position: absolute;
-	top: 58%;
+	top: 59%;
 	left: 10%;
 	height: 22px;
 	width: 200px;
@@ -235,22 +189,22 @@ td
 }
 
 
-#inputnivel
+#inputnombreusuario
 {
 	position: absolute;
-	top: 67%;
-	left: 17%;
+	top: 37%;
+	left: 39%;
 	height: 22px;
-	width: 142px;
+	width: 200px;
 	font-size: 16px;
 	text-align: center;
 }
 
-#lblcarrera
+#lblrole
 {
 	position: absolute;
-	top: 59%;
-	left: 2%;
+	top: 48%;
+	left: 33.5%;
 }
 
 #btncargar
@@ -260,80 +214,21 @@ td
 	left: 10%;
 	font-size: 15px;
 }
-#lblnivel
+#lblnombreusuario
 {
 	position: absolute;
-	top: 68%;
-	left: 2%;
+	top:  38.5%;
+	left: 21%;
 }
 
-#inputskills
+#inputrole
 {
 	position: absolute;
-	top: 76%;
-	left: 10%;
-	height: 70px;
-	width: 200px;
+	top: 48%;
+	left: 39%;
+	height: 23px;
+	width: 203px;
 	font-size: 16px;
 	text-align: center;
 }
 
-#lblskills
-{
-	position: absolute;
-	top: 77%;
-	left: 2%;
-}
-
-#lblproyectos
-{
-	position: absolute;
-	left: 56%;
-	top: 9%;
-}
-
-#textarea
-{
-	position: absolute;
-	left: 56%;
-	top: 14%;
-	width: 314px;
-	height: 140px;
-	font-size: 16px;
-	
-
-}
-
-
-#textarea2
-{
-	position: absolute;
-	left: 56%;
-	top: 55%;
-	width: 314px;
-	height: 109px;
-	font-size: 16px;
-	
-}
-
-#lblcomentarios
-{
-	position: absolute;
-	left: 56%;
-	top: 50%;
-}
-
-
-#fieldfoto
-{
-	position: absolute;
-	width: 14%;
-	height: 24%;
-	left: 10%;
-	text-align: center;
-	border-radius: 25px;
-}
-textarea
-{
-	font-family: Arial;
-}
