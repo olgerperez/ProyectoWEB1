@@ -29,10 +29,10 @@
 
 }
 
-img{
+#imgfoto{
 	position: absolute;
-top: 3%;
-left: 9%;
+	top: 0%;
+	left: 14%;
 }
 
 
@@ -123,36 +123,6 @@ span
 }
 
 
-ul, ol {
-     margin: 0;
-     padding: 0;
-     list-style-type: none;
-     
-
-     }
-
-.nav li a
-{	
-
-	background-color: #16209C;
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 15px;
-	display: block;
-	float: left;
-	box-shadow: 5px 9px 21px #000205;
-	position: relative;
-	top: 154px;
-
-
-}
-
-.nav li a:hover
-{
-	background-color: #434343;
-	
-}
-
 #pcarrera
 {
 	color: black;
@@ -202,38 +172,38 @@ td
 #btnguardar{
 	font-size: 16px;
 	position: absolute;
-	top: 50%;
-	left: 36%
+	top: 89%;
+	left: 40%
 }
 
 
 #btncancelar{
 	font-size: 16px;
 	position: absolute;
-	top: 237px;
-	left: 49%;
+	top: 421px;
+	left: 54%;
 	height: 35px;
 	text-align: center;
 }
 
 #labelcodigo
 {
-position: absolute;
-top: 26%;
-left: 29%;
+	position: absolute;
+	top: 40%;
+	left: 2%;
 }
 
 #labelnombre
 {
-position: absolute;
-top: 49%;
-left: 2%;
+	position: absolute;
+	top: 50%;
+	left: 2%;
 }
 
 #inputcodigo
 {
 	position: absolute;
-	top: 37%;
+	top: 39%;
 	left: 10%;
 	height: 22px;
 	width: 200px;
@@ -245,10 +215,110 @@ left: 2%;
 #inputnombre
 {
 	position: absolute;
-	top: 48%;
+	top: 49%;
 	left: 10%;
 	height: 22px;
 	width: 200px;
 	font-size: 16px;
 	text-align: center;
+}
+
+#inputcarrera
+{
+	position: absolute;
+	top: 58%;
+	left: 10%;
+	height: 22px;
+	width: 200px;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+#inputnivel
+{
+	position: absolute;
+	top: 67%;
+	left: 17%;
+	height: 22px;
+	width: 142px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#lblcarrera
+{
+	position: absolute;
+	top: 59%;
+	left: 2%;
+}
+
+#btncargar
+{
+	position: absolute;
+	top: 31%;
+	left: 10%;
+	font-size: 15px;
+}
+#lblnivel
+{
+	position: absolute;
+	top: 68%;
+	left: 2%;
+}
+
+#inputskills
+{
+	position: absolute;
+	top: 76%;
+	left: 10%;
+	height: 70px;
+	width: 200px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#lblskills
+{
+	position: absolute;
+	top: 77%;
+	left: 2%;
+}
+
+#lblproyectos
+{
+	position: absolute;
+	left: 56%;
+	top: 9%;
+}
+
+#textarea
+{
+	position: absolute;
+	left: 56%;
+	top: 14%;
+	width: 314px;
+	height: 140px;
+	font-size: 16px;
+	text-align: center;
+
+}
+
+
+#textarea2
+{
+	position: absolute;
+	left: 56%;
+	top: 55%;
+	width: 314px;
+	height: 109px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#lblcomentarios
+{
+	position: absolute;
+	left: 56%;
+	top: 50%;
 }
