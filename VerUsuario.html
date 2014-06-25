@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="styleUsuario.css">
+	<meta charset="utf-8" />
+	<script type="text/javascript">
+	function editar(){
+		alert("Usuario Editado Correctamente");
+	}
+	</script>
+</head>
+<body >
+	<div id="div">
+		<fieldset id="fieldsetlogin">
+			<a href="login.html"><img src="Imagenes/logout.png" id="imglogin"> </a>
+			<p id="holaadmin">Hola Admin</p>
+		</fieldset>
+
+		<div>
+			<img src="Imagenes/users.png" id="imgperfiles">
+		</div>
+
+		<div id="subrayado">
+			<p id="pcarrera">Editar Usuario</p>
+		</div>
+
+		<div id="header">
+				<fieldset id = "fieldmenu">
+  					<form action="Usuarios.html" method="post" name="form1"  >
+						<label for"lblcedula" id="lblcedula" >Cedula:</label >
+						<input type="text" id="inputcedula" name"lblcedula" placeholder="Cedula...." value="203330333" readonly> </input> 
+						<br>
+						<label for"lblnombre" id="lblnombre">Nombre:</label>
+						<input type="text" id="inputnombre" name"lblnombre" placeholder="Nombre...." value="Danilo Vargas" readonly> </input> 
+						<br>
+						<label for"lblnombreusuario" id="lblnombreusuario">Nombre de Usuario:</label>
+						<input type="text" id="inputnombreusuario" name"lblnombreusuario" placeholder="Nombre del Usuario...." value="DaniloUTN" readonly > </input> 
+						<br>
+						<label for"lblrole" id="lblrole">Role:</label>
+						<select id="inputrole" name="lblrole" readonly>
+						<option  value="a">Administrador</option>
+						<option selected value="dc">Director de Carrera</option>
+						</select>						
+						<br>
+						<button id="btnguardar" ><img src="Imagenes/back.png" >Regresar </button>
+						
+					</form>
+  			</fieldset>
+		</div>
+	</div>
+</body>
+</html>

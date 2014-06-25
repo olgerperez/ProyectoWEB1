@@ -46,6 +46,19 @@ top: 34%;
 left: 12%;
 }
 
+#fieldmenu2
+{
+
+position: absolute;
+width: 800px;
+height: 371px;
+border-color: #16209C;
+border-radius: 10px;
+ border: #16209C 5px double;
+box-shadow: 4px 11px 32px #000205;
+top: 34%;
+left: 12%;
+}
 
 #holaadmin
 {
@@ -184,6 +197,12 @@ td
 {
 	position: relative;
 	right: -25px;
+}
+
+#margen3
+{
+	position: relative;
+	right: -40px;
 }
 
 #addcarrera
