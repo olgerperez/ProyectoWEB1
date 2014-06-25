@@ -6,11 +6,13 @@
 	width: 146px;
 	height: 40px;
 	border-color: #00008B;
-	border-radius: 80px;
+	border-radius: 20px;
 	top: 2%;
-	background-color: #ADD8E6;
+	color: white;
 	font-family: Arial;
-	border: #16209C 5px double;
+	border: #16209C 5px groove;
+	background: url("Imagenes/holaadmin.jpg");
+	box-shadow: 4px 1px 32px #2043B3;
 }
 
 #imglogin
